@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="images/icon.jpg" />
+    <title>ws html</title>
+  </head>
+  <body>
+    <header>
+      <h2>Logo</h2>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <video width="320" height="240" controls>
+          <source src="videos/videoToast.mp4" type="video/mp4" />
+        </video>
+        <hr />
+        <p
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+          Quibusdam magni illum eum exercitationem molestias rem ab earum quam
+          fuga,<br />
+          voluptatem et sit unde quos esse, deserunt veritatis eligendi
+          accusantium ex?</p
+        >
+      </section>
+      <section id="about">
+        <img src="images/house.jpg" alt="house" width="400px" height="400px" />
+        <br />
+        <audio controls>
+          <source src="audios/music.mp3" type="audio/mpeg" />
+        </audio>
+        <br />
+        <img
+          src="https://images.unsplash.com/photo-1656576968731-9271a93d216a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+          alt="women"
+          width="400px"
+          height="400px"
+        />
+        <br />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/e8zL5PD8164"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Meriem</td>
+            <td>Meriem@gmail.com</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>Ridha</td>
+            <td>ridha@gmail.com</td>
+            <td>27</td>
+          </tr>
+        </table>
+      </section>
+      <br />
+      <br />
+      <section id="contact">
+        <form>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="enter your name"
+            required
+          /><br />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="enter your email"
+            required
+          /><br />
+          <label for="age">Age</label>
+          <input
+            type="number"
+            id="age"
+            placeholder="enter your age"
+            required
+          /><br />
+          <br />
+          <label for="gender">Gender</label>
+          <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-instagram-square"></i>
+      <p>&#9400;Go My Code</p>
+    </footer>
+  </body>
+</html>
